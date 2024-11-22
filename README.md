@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Photo Gallery Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive and modern infinite scroll photo gallery built with React, Tailwind CSS, and the Unsplash API. The application dynamically loads photos and supports smooth animations for an interactive user experience.
 
-## Available Scripts
+## Live Site
 
-In the project directory, you can run:
+Visit the live version of the application: [Photo Gallery](https://photo-gallery-eosin-mu.vercel.app/)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Infinite Scroll:** Dynamically fetch and display photos as the user scrolls.
+- **Responsive Design:** Optimized for all devices with grid layouts adjusting seamlessly.
+- **Hover Effects:** Smooth image zoom and flipping animations on hover.
+- **Photographer Details:** Display photographer's name and location under each photo.
+- **Error Handling:** Displays a friendly message when the API fails to fetch data.
+- **Loading Indicator:** A spinner appears while fetching new images.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **Frontend Framework:** React
+- **Styling:** Tailwind CSS
+- **API Integration:** Unsplash API
+- **Deployment:** Vercel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+Include these in the repository:
+1. Home Page view on desktop.
+2. Infinite scroll behavior on mobile.
+3. Hover effects in action.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these steps to install and run the project locally:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Clone the Repository
 
-### `npm run eject`
+```bash
+git clone https://github.com/yuvrajsingh2428/Photo-Gallery.git
+cd Photo-Gallery
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install Dependencies
+    
+    npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Set Up Environment Variables
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Create a .env file in the root directory and add the following:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    REACT_APP_UNSPLASH_ACCESS_KEY=Your_UNSPLASH_API
 
-## Learn More
+4. Start the Development Server
+     
+     npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open http://localhost:3000 in your browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Deployment
+The project is deployed on Vercel. To deploy your version:
 
-### Code Splitting
+1. Link your GitHub repository to Vercel.
+2. Set up the same .env file in the Vercel environment settings.
+3. Deploy!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Advanced Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Hover Flip Animation: Cards flip to reveal image details on hover.
+2. Smooth Transitions: Tailwind CSS animations enhance user experience.
+3. Lazy Loading: Images are fetched in batches of 9 to optimize performance.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
