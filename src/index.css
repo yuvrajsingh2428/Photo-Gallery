@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loader {
+  border-top-color: #3498db;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 
+.perspective {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+} */
+
+
+/* HO GVYA BHAI AB ISKO JITNA CHAHE STYLE  */
+
+/* ha wo sb effect lga skte ho ho jayega kuchh issue rha hoga */
+/* Ab krlo task dekhlo points me jo jo importamt hai wo ho gya hai ya nahi bs submit krdo fir */
